@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    padding: 25px;
+}
+
+header {
+    display: flex;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.list {
+    text-decoration: none;
+    color: grey;
+}
+.current {
+    text-decoration: none;
+    color: black;
+}
+input {
+    width: 25vw;
+    border: none;
+    outline: none;
+    background-color: #EAEAEA;
+    padding: 10px;
+}
+label {
+    color: grey;
+}
+#check {
+    color: black;
+}
+input[type="checkbox"] {
+    width: auto;
+    accent-color:red;
+} 
+form {
+    display: flex;
+    gap: 200px;
+}
+
+    
