@@ -13,7 +13,7 @@ padding: 30px;
     text-align: start;
     justify-content: left;
     padding-top: 200px;
-    padding-right: 180px;
+    padding-right: 120px;
     font-size: large;
     font-family: "Inter", serif;
 }
@@ -24,7 +24,11 @@ padding: 30px;
 }
 #Second{
     display: flex;
-   
+    margin-top: 7rem;
+}
+#Third{
+    display: flex;
+    margin-top: 7rem;
 }
 .Services{
     height: 40vh;
@@ -34,7 +38,7 @@ padding: 30px;
     align-items: center;
     justify-content: space-around;
     margin:10px;
-    box-shadow: 2px 2px 1px gray;
+    box-shadow: 0px 0px 20px gray;
 }
 
 .Services:hover{
@@ -48,10 +52,7 @@ padding: 30px;
     font-family: "Inter", serif;
 }
 
-#Third{
-    display: flex;
-    
-}
+
 .stylethird{
     display: flex;
     align-items:center;
@@ -70,16 +71,16 @@ padding: 30px;
     width: 10px;
     align-items: center;
     justify-content: space-around;
-    margin-top: 150px;
-    margin-left: 650px;
+    margin-top: 80px;
+    margin-left: 600px;
     gap: 10px;
 }
 #Fifth{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 20px 0px 80px;
-    gap: 60px;
+    margin: -60px 20px 0px 110px;
+    gap: 70px;
     height: 70vh;
     width: 70vw;
     text-align: center;
@@ -93,15 +94,19 @@ padding: 30px;
 button{
     border: none;
     border-radius: 100%;
-    background-color: rgb(157, 157, 157);
+    background-color: rgb(177, 177, 177);
     height: 2vh;
     width: 3vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
+    scale: 0.7;
 }
 button:hover{
     background-color: #DB4444;
+    scale: 0.9;
+}
+button i{
+    filter: opacity(0.1);
 }
 
