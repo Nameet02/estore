@@ -27,10 +27,12 @@ nav{
     font-size: 16px;
     list-style: none;
 }
-a{
+#menu a{
     color: rgb(3, 3, 3);
     text-decoration: none;
 }
+
+/* styling search section and logos */
 #search{
     position: relative;
     display: flex;  
@@ -68,3 +70,149 @@ ul a:hover{
 .icon{
 font-size: 20px;
 }
+
+/* styling footer */
+#footer-div{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.foot-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#subs{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+#mail{
+    display: flex;
+    margin-top: 0px;
+    border: 2px solid white;
+}
+#mail input{
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    color: white;
+}
+#mail button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+h3{
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.foot-div-area li,a{
+    list-style: none;
+    color: white;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.foot-para,.foot-para-2{
+    color: rgb(205, 201, 171);
+    padding-bottom: 13px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.foot-div-area{
+padding-bottom: 100px;
+}
+#subscribe{
+    padding-left: 45px;
+    width: 190px;
+}
+#support{
+    width: 150px;
+}
+#account{
+    width: 100px;
+}
+#quick-links{
+    width: 100px;
+}
+#download-app{
+    padding-right: 45px;
+    width: 220px;
+}
+#footer-last-div{
+    display: flex;
+    gap: 10px;
+}
+#play-store{
+    display: flex;
+    background-color: black;
+    border: 1px solid dimgray;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#play-store:active{
+    scale: 0.9;
+}
+#apple{
+    display: flex;
+    background-color: black;
+    border: 1px solid dimgray;
+    /* width: fit-content; */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#apple:active{
+    scale: 0.9;
+}
+#android{
+    width: 25px;
+}
+.button-1st-para {
+    width: fit-content;
+   font-size: 0.5rem;
+    color: rgb(144, 135, 135);
+}
+.button-2nd-para {
+    width: fit-content;
+    font-size: 0.8rem;
+    color: white;
+}
+.button-para{
+    display: flex;
+    padding-left: 7px;
+    flex-direction: column;
+}
+#apple{
+    border: none;
+    background-color: black;
+}
+#social-media{
+    display: flex;
+    justify-content: space-around;
+}
+#social-media i{
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+#copyright{
+    color: rgb(86, 71, 71);
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    font-size: 0.7rem;
+}
+
+
