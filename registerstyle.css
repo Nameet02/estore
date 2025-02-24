@@ -1,0 +1,31 @@
+#registerpage {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px 30px 40px 20px;
+    position: relative;
+
+}
+#formsec {
+    display: block;
+    align-items: center;
+    padding-left: 40px;
+
+    
+}
+.Regdetails {
+    border:none ;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-evenly;
+    border-bottom: 2px;
+    /* border-top: none;
+    border-left: none;
+    border-right: none; */
+    gap: 5px;
+    /* text-decoration-line: underline; */
+    border-bottom: 1px solid black ;
+    box : shadow 1rem, 2rem, 1rem,2rem;
+}
+/* style="font-size: 36px;"
+style="font-size: 16px;" */
