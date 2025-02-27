@@ -91,7 +91,7 @@ padding: 30px;
     margin-top: 0px;
     
 }
-button{
+#Fourbutton{
     border: none;
     border-radius: 100%;
     background-color: rgb(177, 177, 177);
@@ -102,11 +102,157 @@ button{
     justify-content: space-evenly;
     scale: 0.7;
 }
-button:hover{
+#Fourbutton:hover{
     background-color: #DB4444;
     scale: 0.9;
 }
-button i{
+#Fourbutton i{
     filter: opacity(0.1);
 }
 
+.cartFirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px rgb(164, 164, 164);
+    height: 10vh;
+    width: 100%;
+    font-family: "Inter", serif;
+}
+.TvStyle{
+    height: 7vh;
+    width: 6vw;
+    size: 20px;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: start;
+    font-family: "Inter", serif;
+}
+
+#ProductCart{
+    display: grid;
+    gap: 30px;
+    font-family: "Inter", serif;
+}
+.TV{
+   display: flex; 
+   justify-content: left;
+   gap: 10px;
+   align-items: center;
+    padding: 0px;
+    margin-left: -20px;
+   
+}
+#Cartheading{
+    gap: 30px;
+}
+#cardsecond{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-family: "Inter", serif;
+}
+.buttoncart{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 6vh;
+    width: 13vw;
+   background-color: #FFFFFF;
+   font-family: "Inter", serif;
+}
+.buttoncart:active{
+    scale: 0.9;
+    border: none;
+   
+}
+
+#CartThird{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content:space-between;
+    font-family: "Inter", serif;
+}
+#Applybutton{
+    height: 5vh;
+    width: 15vw;
+    margin: 0px;
+    font-family: "Inter", serif;
+}
+#ApplyCoupon{
+    border: none;
+    background-color: #DB4444;
+    border-radius: 5px;
+    height: 5.5vh;
+    width: 10vw;
+    color: white;
+    margin-top: 10px;
+    font-family: "Inter", serif;
+}
+#ApplyCoupon:active{
+ scale: 0.9;
+ border: none;
+}
+
+.applycode{
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    gap: 20px;
+    font-family: "Inter", serif;
+    margin-bottom: 230px;
+}
+#Procees{
+    border: 1px solid;
+    border-radius: 1px;
+    height: 36vh;
+    width: 30vw;
+    font-family: "Inter", serif;
+    margin-top: 40px;
+}
+.CartTotal{
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    margin: 0px 20px 20px 20px;
+    font-family: "Inter", serif;
+}
+#Proceesbutton{
+    border: none;
+margin-left: 80px;
+    height: 5vh;
+    width: 13vw;
+    background-color: #DB4444;
+    color: white;
+    font-family: "Inter", serif;
+
+}
+#Proceesbutton:active{
+    scale: 0.9;
+    border: none;
+}
+.Quantity{
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+   height: 40px;
+   width: 60px;
+   margin: 10px;
+   border-radius: 4px;
+
+}
+.unique{
+transform: rotate(90deg);
+}
+.unique2{
+    transform: rotate(90deg); 
+}
+#Updatecart{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 6vh;
+    width: 10vw;
+   background-color: #FFFFFF;
+   font-family: "Inter", serif;
+}

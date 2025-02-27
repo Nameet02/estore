@@ -96,12 +96,11 @@
 
 <section id="Four">
 
-<button type="button"><i class="uil uil-circle"></i></button>
-<button type="button"><i class="uil uil-circle"></i></button>
-<button type="button"><i class="uil uil-circle"></i></button>
-<button type="button"><i class="uil uil-circle"></i></button>
-<button type="button"><i class="uil uil-circle"></i></button>
-
+<button id= "Fourbutton" type="button"><i class="uil uil-circle"></i></button>
+<button id= "Fourbutton" type="button"><i class="uil uil-circle"></i></button>
+<button id= "Fourbutton" type="button"><i class="uil uil-circle"></i></button>
+<button id= "Fourbutton" type="button"><i class="uil uil-circle"></i></button>
+<button id= "Fourbutton" type="button"><i class="uil uil-circle"></i></button>
 
 </section>
 
@@ -129,9 +128,86 @@
         </div>
     </div>
 
-
 </section>
 
+
+
+<!-- Cart Section Start Here -->
+
+
+
+<section id="ProductCart">
+
+    <div class="cartFirst" id="Cartheading"> <h3> Product</h3>
+       <h3 style="margin-left: 150px;"> Price</h3>
+    <h3> Quantity</h3>
+    <h3>Subtotal</h3>
+    </div>
+
+
+    <div class="cartFirst"> 
+       <div class="TV"><img class="TvStyle" src="./assets/g27cq4-500x500 1.png" alt="TVImage">
+       <h3> LCD Monitor</h3></div>
+       <h3> $650</h3>
+    <div style="display: flex;">
+
+        <span class="Quantity">
+            <h4 style="margin-left: 10px;"> 01 </h4>
+           <span class="unique"  style="margin-left: 5px;"> < > </span>
+        </span>
+    </div>   
+    <h3>$650</h3>
+    </div>
+
+
+    <div class="cartFirst"> 
+       <div class="TV"> <img class="TvStyle" src="./assets/Frame 611.png" alt="Gamepad">
+        <h3>H1 Gamepad</h3></div> 
+       <h3> $550</h3>
+
+    <span class="Quantity">
+       <h4 style="margin-left: 10px;"> 02 </h4>
+    <span class="unique2" style="margin-left: 3px;"> < > </span>
+    </span>
+
+    <h3>$1100</h3>
+    </div>
+    
+</section>
+<div id="cardsecond">
+    <button type="button" class="buttoncart"><h4> Return To Shop</h4></button>
+    <button type="button" class="buttoncart" id="Updatecart"><h4>Update Cart</h4></button>
+
+</div>
+
+ <div id="CartThird">
+ <div class="applycode">
+ <h1><input id="Applybutton" type="text" placeholder="    Coupon Code"></h1>
+ <button type="button" id="ApplyCoupon"> <p> Apply Coupon </p></button>
+</div>
+
+<div id="Procees"> 
+    <div style="margin: 20px; "> <h3>Cart Total</h3></div>
+    <div class="CartTotal">
+    <h6>Subtotal:</h6>
+    <h6>$1750</h6></div>
+<hr style="margin: 10px 20px 10px 20px;">
+
+    <div class="CartTotal">
+        <h6>Shipping:</h6>
+        <h6>Free</h6>
+    </div>
+<hr style="margin: 10px 20px 10px 20px;">
+
+    <div class="CartTotal">
+        <h6>Total:</h6>
+        <h6>$1750</h6>
+    </div>
+
+    <button type="button" id="Proceesbutton"> Procees to Checkout</button>
+
+</div>
+</div>
 
 </body>
 </html>
