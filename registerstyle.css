@@ -25,7 +25,14 @@
     gap: 5px;
     /* text-decoration-line: underline; */
     border-bottom: 1px solid black ;
-    box : shadow 1rem, 2rem, 1rem,2rem;
+    /* box : shadow 1rem, 2rem, 1rem,2rem; */
 }
 /* style="font-size: 36px;"
 style="font-size: 16px;" */
+#googlelogo {
+    height: 16px;
+    font-weight: 500;
+    
+    
+
+}
