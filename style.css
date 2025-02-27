@@ -1,0 +1,354 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", serif;
+    /* overflow-x: hidden;
+    box-sizing: border-box; */
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* Styling navbar */
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    background-color: white;
+}
+#menu ul{
+    display: flex;
+    gap: 40px;
+}
+#menu ul li{
+    font-size: 16px;
+    list-style: none;
+}
+#menu a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+
+/* styling search section and logos */
+#search{
+    position: relative;
+    display: flex;  
+    align-items: center;  
+    padding: 10px 15px;
+    gap: 7px;
+    border-radius: 5px;
+    background-color: #efc8c82a;
+}
+#search input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+ul li:hover{
+     font-weight: 500;
+    border-bottom:1px solid grey; 
+}
+#last {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#last-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon{
+font-size: 20px;
+}
+
+/* styling footer */
+#footer-div{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.foot-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#subs{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+#mail{
+    display: flex;
+    margin-top: 0px;
+    border: 2px solid white;
+}
+#mail input{
+    width: 130px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    color: white;
+}
+#mail button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+h3{
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.foot-div-area li,a{
+    list-style: none;
+    color: white;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.foot-para,.foot-para-2{
+    color: rgb(205, 201, 171);
+    padding-bottom: 13px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.foot-div-area{
+padding-bottom: 100px;
+}
+#subscribe{
+    padding-left: 45px;
+    width: 190px;
+}
+#support{
+    width: 150px;
+}
+#account{
+    width: 100px;
+}
+#quick-links{
+    width: 100px;
+}
+#download-app{
+    padding-right: 45px;
+    width: 220px;
+}
+#footer-last-div{
+    display: flex;
+    gap: 10px;
+}
+#play-store, #apple{
+    display: flex;
+    background-color: black;
+    border: 1px solid dimgray;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#play-store:active{
+    scale: 0.9;
+}
+#apple:active{
+    scale: 0.9;
+}
+#android{
+    width: 25px;
+}
+.button-1st-para {
+    width: fit-content;
+   font-size: 0.5rem;
+    color: rgb(144, 135, 135);
+}
+.button-2nd-para {
+    width: fit-content;
+    font-size: 0.8rem;
+    color: white;
+}
+.button-para{
+    display: flex;
+    padding-left: 7px;
+    flex-direction: column;
+}
+#apple{
+    border: none;
+    background-color: black;
+}
+#social-media{
+    display: flex;
+    justify-content: space-around;
+}
+#social-media i{
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+#copyright{
+    color: rgb(86, 71, 71);
+    position: absolute;
+    bottom: 20px;
+    left: 42%;
+    font-size: 0.7rem;
+    /* position: absolute;
+    bottom: 20px; */
+}
+
+/* styling featured section */
+#featured{
+    width: 100%;
+    padding: 20px 95px;
+    margin-top: 80px;
+}
+#featured-heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#featured-redbox{
+    height: 12px;
+    border: 6px solid red;
+    border-radius: 3px;
+}
+#featured-red{
+    color: red;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+#new-arrival{
+    font-size: 1.5rem;
+    padding-top: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+#featured-pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    width: 80%;
+    margin-top: 30px;   
+}
+.photo{
+    position: relative;
+    background-color: black;
+}
+#featured-pic1{
+    height: 580px;
+    width: 580px;
+}
+#featured-pic1 img{
+    height: 500px;
+    width: 500px;
+    padding: 80px 0px 0px 30px;
+}
+#featured-pic2{
+    width: 560px;
+    height: 300px;
+}
+#featured-pic2 img{
+    width: 550px;   
+    height: 300px;
+}
+#featured-pic3{
+    height: 260px;   
+}
+#featured-pic3 img{
+    width: 200px;
+    padding: 30px 0px 35px 45px ;
+}
+#featured-pic4{
+    height: 260px;
+}
+#featured-pic4 img{
+    width: 190px;
+    padding: 30px 0px 35px 45px; 
+}
+#right-pics{
+    display: grid;
+    gap: 20px;
+}
+#right-bottom-pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.featured-pic-content{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    letter-spacing: 0.05rem;
+}
+.featured-para1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.featured-para2{
+    font-size: 0.8rem;
+    color: rgb(197, 193, 193);
+}
+.featured-button{
+    font-size: 1rem;
+    width: fit-content;
+    background-color: transparent;
+    color: rgb(236, 226, 226);
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-top: 5px;
+}
+.featured-button:hover{
+    cursor:pointer;
+}
+.featured-button:active{
+    cursor: pointer;
+    scale: 0.9;
+}
+#featured-delivery{
+    margin-top: 80px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.featured-services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.featured-service-para1{
+    font-weight: bold;
+    padding-top: 20px;
+    letter-spacing: 0.05rem;
+}
+.featured-service-para2{
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+}
+

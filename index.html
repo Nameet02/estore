@@ -1,11 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <link rel="stylesheet" href="style.css">
+  <title>E-COMMERCE</title>
 </head>
+
 <body>
-    
+  <!-- creating navbar -->
+  <nav>
+    <!-- navbar logo -->
+    <div id="logo">
+      <h1>Exclusive</h1>
+    </div>
+    <!-- navbar menu links -->
+    <div id="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </div>
+    <!-- navbar search section -->
+    <div id="last">
+      <div id="search">
+        <input type="search" placeholder="What are you looking for?">
+        <i class="uil uil-search icon"></i>
+      </div>
+      <div id="last-icons">
+        <i class="uil uil-heart icon"></i>
+        <i class="uil uil-shopping-cart icon"></i>
+        <i class="uil uil-user icon"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div id="featured">
+    <div id="featured-heading">
+      <div id="featured-redbox"></div>
+      <p id="featured-red">Featured</p>
+    </div>
+    <p id="new-arrival">New Arrival</p>
+    <div id="featured-pics">
+      <div id="featured-pic1" class="photo">
+        <img src="./assets/ps5-slim-goedkope-playstation_large 1.png" alt="">
+        <div class="featured-pic-content">
+          <p class="featured-para1">PlayStation 5</p>
+          <p class="featured-para2">Black and white version of the PS5 <br> coming out on the sale.</p>
+          <button class="featured-button">Shop Now</button>
+        </div>
+      </div>
+      <div id="right-pics">
+        <div id="featured-pic2" class="photo">
+          <img src="./assets/attractive-woman-wearing-hat-posing-black-background 1.png" alt="">
+          <div class="featured-pic-content">
+            <p class="featured-para1">Women's Collections</p>
+            <p class="featured-para2">Featured women collections that <br> give you another vibe</p>
+            <button class="featured-button">Shop Now</button>
+          </div>
+        </div>
+        <div id="right-bottom-pic">
+          <div id="featured-pic3" class="photo">
+            <img src="./assets/Frame 707.png" alt="">
+            <div class="featured-pic-content">
+              <p class="featured-para1">Speakers</p>
+              <p class="featured-para2">Amazon wireless speakers</p>
+              <button class="featured-button">Shop Now</button>
+            </div>
+          </div>
+          <div id="featured-pic4" class="photo">
+            <img src="./assets/652e82cd70aa6522dd785109a455904c.png" alt="">
+            <div class="featured-pic-content">
+              <p class="featured-para1">Perfume</p>
+              <p class="featured-para2">GUCCI INTENSE OUDEDP</p>
+              <button class="featured-button">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="featured-delivery">
+      <div class="featured-services">
+        <img src="./assets/Services (4).png" alt="">
+        <p class="featured-service-para1">FREE AND FAST DELIVERY</p>
+        <p class="featured-service-para2">Free delivery for all orders over $140</p>
+      </div>
+      <div class="featured-services">
+        <img src="./assets/Services (5).png" alt="">
+        <p class="featured-service-para1">24/7 CUSTOMER SERCICE</p>
+        <p class="featured-service-para2">Friendly 24/7 customer support</p>
+      </div>
+      <div class="featured-services">
+        <img src="./assets/Services (6).png" alt="">
+        <p class="featured-service-para1">MONEY BACK GUARANTEE</p>
+        <p class="featured-service-para2">We return money within 30 days</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- creating footer -->
+  <footer>
+    <div id="footer-div">
+      <div id="subscribe" class="foot-div-area">
+        <h3>Exclusive</h3>
+        <p id="subs">Subscribe</p>
+        <p class="foot-para">Get 10% off on your first order</p>
+        <div id="mail">
+          <input type="email" placeholder="Enter your email">
+          <button><i class="uil uil-message"></i></button>
+        </div>
+      </div>
+      <div id="support" class="foot-div-area">
+        <p class="foot-heading">Support</p>
+        <p class="foot-para foot-para-2">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+        <p class="foot-para foot-para-2">exclusive@gmail.com</p>
+        <p class="foot-para foot-para-2">+88015-88888-9999</p>
+      </div>
+      <div id="account" class="foot-div-area">
+        <p class="foot-heading">Account</p>
+        <li><a href="#" class="foot-para">My Account</a></li>
+        <li><a href="#" class="foot-para">Login / Register</a></li>
+        <li><a href="#" class="foot-para">Cart</a></li>
+        <li><a href="#" class="foot-para">Wishlist</a></li>
+        <li><a href="#" class="foot-para">Shop</a></li>
+      </div>
+      <div id="quick-links" class="foot-div-area">
+        <p class="foot-heading">Quick Links</p>
+        <li><a href="#" class="foot-para">Privacy Policy</a></li>
+        <li><a href="#" class="foot-para">Terms Of Use</a></li>
+        <li><a href="#" class="foot-para">FAQ</a></li>
+        <li><a href="#" class="foot-para">Contact</a></li>
+      </div>
+      <div id="download-app" class="foot-div-area">
+        <p class="foot-heading">Download App</p>
+        <p class="foot-para">Save $3 with App (New user only)</p>
+        <div id="footer-last-div">
+          <div id="scan">
+            <img src="./assets/Qr-code.png" alt="QR Code" width="80px">
+          </div>
+          <div id="buttons">
+            <button id="play-store">
+              <img id="android" src="./assets/play_store.png" alt="play store">
+              <div class="button-para">
+                <p class="button-1st-para">Get it ON</p>
+                <p class="button-2nd-para">Google Play</p>
+              </div>
+            </button>
+            <button id="apple">
+              <img src="./assets/apple-logo.png" alt="Apple Logo" width="25px">
+              <div class="button-para">
+                <p class="button-1st-para">Download on the</p>
+                <p class="button-2nd-para">App Store</p>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div id="social-media">
+          <i class="uil uil-facebook-f"></i>
+          <i class="uil uil-twitter-alt"></i>
+          <i class="uil uil-instagram"></i>
+          <i class="uil uil-linkedin-alt"></i>
+        </div>
+
+      </div>
+      <p id="copyright">© Copyright Rimel 2022. All right reserved</p>
+  </footer>
 </body>
+
 </html>
