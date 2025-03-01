@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.page{
+    padding: 3rem 5.7rem;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+#uppersection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Wishlist{
+    font-weight: 600;
+}
+#movebutton{
+    width: 13rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#imgpart1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 2.5rem;
+    gap: 30px;
+}
+.divimg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.233);
+    width: 250px;
+    position: relative;
+}
+#divimg1{
+    padding: 20px 20px 40px 20px;
+}
+#divimg2{
+    padding: 62px 20px 83px 20px;
+}
+#divimg3{
+    padding: 35px 20px 55px 20px;
+}
+#divimg4{
+    padding: 21px 18px 40px 18px;
+}
+.bagbutton{
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    bottom: 0rem;
+    background-color:black;
+    color: rgba(255, 255, 255, 0.63);
+    border-radius: 2px;
+}
+.uil-shopping-cart{
+    font-size: 1rem;
+    margin-right: 5px;    
+}
+.uil-trash-alt{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.2rem;
+}
+.uil-eye{
+    
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 1.2rem;
+}
+
+#redbutton{
+    background-color: rgba(255, 0, 0, 0.76);
+    color: white;
+    border: none;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding:5px 5px 5px 5px;
+}
+#detilasection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    /* background-color: brown; */
+    font-weight: 700;
+}
+#detilasection1{
+    width: 270px;
+}
+#detilasection2{
+    width: 270px;
+}
+#detilasection3{
+    width: 270px;
+}
+#detilasection4{
+    width: 270px;
+}
+#detilasection1price{
+    color: red;
+    margin-top: 9px;
+}
+#uppersection2{
+    margin-top: 4rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#seeAll{ 
+width: 9rem;
+height: 3rem;
+background-color: white;
+border-radius: 4px;
+font-weight: 600;
+}
+#justforyou{
+    font-weight: 600;
+    margin-left: -31rem;
+}
+#secondsectiondivimg1{
+    padding: 20px 23px 40px 23px;
+}
+#secondsectiondivimg2{
+    padding: 55px 23px 55px 23px;
+}
+#secondsectiondivimg3{
+    padding: 30px 23px 30px 23px;
+}
+#secondsectiondivimg4{
+    padding: 70px 23px 70px 23px;
+}
+#greenbutton{
+    color: white;
+    background-color: rgb(73, 196, 73);
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding:5px 5px 5px 5px;
+    border: none;
+}
+#redbox{
+    background-color: rgba(255, 0, 0, 0.76);
+    width: 15px;
+    height: 30px;
+    border: none;
+    border-radius:3px ;
+}
