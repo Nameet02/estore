@@ -34,11 +34,42 @@ label {
 }
 input[type="checkbox"] {
     width: auto;
-    accent-color:red;
+    accent-color: red;
 } 
 form {
     display: flex;
     gap: 200px;
 }
+span {
+    margin-left: 25px;
+}
+img {
+    margin-top: 10px;
+}
+.price {
+    margin-left: 80px;
+}
+.total {
+    margin-left: 195px;
+}
+input[type="radio"] {
+    width: auto;
+    accent-color: black;
+} 
+#option {
+    color: black;
+}
+#coupan {
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border: solid 2px black;
+}
+button {
+    background-color:rgba(255, 0, 0, 0.767);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
 
-    
+}
