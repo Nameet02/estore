@@ -6,6 +6,13 @@
     position: relative;
 
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+    height: 70vh;
+}
 #formsec {
     display: block;
     align-items: center;
